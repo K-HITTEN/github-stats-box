@@ -24,6 +24,6 @@ jobs:
                   GH_TOKEN: ${{ secrets.GH_TOKEN }} # Do not edit, defined in secrets
 
                   # Edit the following environment variables
-                  GIST_ID: K-HITTEN/5ad98bc6e4ac1501dea8a58583d40285 # The ID portion from your gist url
+                  GIST_ID: https://gist.github.com/K-HITTEN/5ad98bc6e4ac1501dea8a58583d40285#file-hyunwoo-kim-s-github-stats # The ID portion from your gist url
                   ALL_COMMITS: true # If `true` it will count all commits, if `false` it will count your last year commits
                   K_FORMAT: true # If `true`, large numbers will be formatted with a "k", for example "1.5k"
